@@ -18,7 +18,7 @@
     <div class="header-section">
         <div class="container">
             <div class="header-logo">
-                <img src="../assets/dc-logo.png" alt="">
+                <img src="{{ asset('img/dc-logo.png') }}" alt="DC Logo">
             </div>
             <div class="header-nav">
                 <ul class="navbar">
@@ -51,6 +51,9 @@
                     </li>
                     <li>
                         <a href="#">SHOP</a>
+                    </li>
+                    <li>
+                        <input class="search-input" type="text" placeholder="Search..">
                     </li>
                 </ul>
             </div>
