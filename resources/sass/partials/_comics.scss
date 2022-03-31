@@ -1,0 +1,42 @@
+.comics-container {
+    background-color: #000;
+}
+
+.item-comic {
+    display: flex;
+    flex-direction: column;
+    width: calc(100% / 6);
+    padding: 20px;
+}
+
+.item-comic span {
+    color: #fff;
+    margin-top: 10px;
+    text-transform: uppercase;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 50px 0px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container h1 {
+    color: #fff;
+    font-size: 50px;
+}
+
+.btn-load {
+    text-align: center;
+    padding: 10px 0px 20px 0px;
+}
+
+.btn-load button {
+    padding: 10px 40px;
+    background-color: #0282F9;
+    color: #fff;
+    font-size: 15px;
+    border: none;
+}

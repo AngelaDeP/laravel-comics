@@ -3,5 +3,8 @@
 @section('pageTitle', 'Home')
 
 @section('content')
-    CONTENUTO 
+    <br>
+    Home del sito DC!
+    <br>
+    <br>
 @endsection

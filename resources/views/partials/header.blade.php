@@ -26,7 +26,7 @@
                         <a href="#">CHARACTERS</a>
                     </li>
                     <li>
-                        <a href="#">COMICS</a>
+                        <a href="/comics">COMICS</a>
                     </li>
                     <li>
                         <a href="#">MOVIES</a>
