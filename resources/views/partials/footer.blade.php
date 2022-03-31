@@ -97,7 +97,7 @@
                 </div>
             </div>
             <div class="logo-footer">
-                <img src="../assets/dc-logo-bg.png" alt="">
+                <img src="{{ asset('img/dc-logo-bg.png') }}" alt="">
             </div>
         </div>
     </div>
