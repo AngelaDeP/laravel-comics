@@ -22,7 +22,7 @@ Route::get('/comics', function () {
     $comics = config('comics');
 
     return view('comics', ['fumetti' => $comics]);
-});
+})->name('comics');
 
 Route::get('/product/{comic_id}', function ($comic_id) {
 
@@ -38,4 +38,4 @@ Route::get('/product/{comic_id}', function ($comic_id) {
         abort(404);
     }
 
-});
+})->name('product');

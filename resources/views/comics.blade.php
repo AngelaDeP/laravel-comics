@@ -9,7 +9,7 @@
                     @foreach ($fumetti as $key => $fumetto)
                     <div class="item-comic">
                             <img src="{{$fumetto['thumb']}}" alt="">
-                            <a href="/product/{{$key}}">
+                            <a href="{{route('product', ['comic_id' => $key] )}}">
                                 <span>{{$fumetto['title']}}</span>
                             </a>                 
                     </div>
