@@ -6,14 +6,14 @@
         <div class="comics-container">
             <div class="comics-list">
                 <div class="container">
-                    @foreach ($fumetti as $fumetto)
+                    @foreach ($fumetti as $key => $fumetto)
                     <div class="item-comic">
-                        
-                            <a href="#">
-                                <img src="{{$fumetto['thumb']}}" alt="">
-                            </a>
-                            <span>{{$fumetto['title']}}</span>
+                            <img src="{{$fumetto['thumb']}}" alt="">
+                            <a href="/product/{{$key}}">
+                                <span>{{$fumetto['title']}}</span>
+                            </a>                 
                     </div>
+                    
                     @endforeach
                 </div>
             </div>

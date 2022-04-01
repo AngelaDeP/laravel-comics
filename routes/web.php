@@ -23,3 +23,19 @@ Route::get('/comics', function () {
 
     return view('comics', ['fumetti' => $comics]);
 });
+
+Route::get('/product/{comic_id}', function ($comic_id) {
+
+    $comics = config('comics');
+    
+    if (is_numeric($comic_id) && $comic_id >= 0 && $comic_id < count($comics)) {
+
+        $productComic = $comics[$comic_id];
+
+        return view('product', ['fumetto' => $productComic]);
+
+    } else {
+        abort(404);
+    }
+
+});

@@ -99,6 +99,11 @@
   font-size: 50px;
 }
 
+.item-comic a {
+  text-decoration: none;
+  padding: 10px 0px;
+}
+
 .btn-load {
   text-align: center;
   padding: 10px 0px 20px 0px;
@@ -110,6 +115,45 @@
   color: #fff;
   font-size: 15px;
   border: none;
+}
+
+.content-width {
+  width: 60%;
+  margin: auto;
+}
+
+.img-string {
+  width: 100%;
+  height: 80px;
+  background-color: #0282F9;
+  position: relative;
+}
+
+.img-string img {
+  position: absolute;
+  bottom: 20px;
+  border: 1px solid #fff;
+}
+
+.detail-comic h1 {
+  font-weight: italic;
+}
+
+.comic-text {
+  padding: 50px 0px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.price-string {
+  background-color: #55BA59;
+  margin: 10px 0px;
+  padding: 15px;
+  color: #9CE474;
+}
+
+.description-text {
+  color: #707070;
 }
 
 .top-footer-section {
